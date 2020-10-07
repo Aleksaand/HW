@@ -1,0 +1,21 @@
+b {
+    color: red;
+    font-size: 40px;
+}
+h1 {
+    color: red;
+    font-size: 40px;
+}
+
+span {
+    font-style: italic;
+}
+button {
+    font-size: 20px;
+    width: 120px;
+    height: 45px;
+    -moz-border-radius:  15px; /* Firefox */
+    -webkit-border-radius:  15px; /* Safari 4 */
+    border-radius:  15px; /* IE 9, Safari 5, Chrome */
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#00BBD6), to(#EBFFFF));
+}
