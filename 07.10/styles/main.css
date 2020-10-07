@@ -10,12 +10,28 @@ h1 {
 span {
     font-style: italic;
 }
-button {
-    font-size: 20px;
-    width: 120px;
-    height: 45px;
-    -moz-border-radius:  15px; /* Firefox */
-    -webkit-border-radius:  15px; /* Safari 4 */
-    border-radius:  15px; /* IE 9, Safari 5, Chrome */
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(#00BBD6), to(#EBFFFF));
-}
+
+
+button { 
+    color: #ff9000 !important; 
+    transition: color 9999999s
+    } 
+    
+    button:active { 
+    color: green;
+    transition: color 0s 
+    }
+    button {
+        font-size: 20px;
+        width: 120px;
+        height: 45px;
+        -moz-border-radius:  15px; /* Firefox */
+        -webkit-border-radius:  15px; /* Safari 4 */
+        border-radius:  15px; /* IE 9, Safari 5, Chrome */
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(#00BBD6), to(#EBFFFF));
+    }
+
+    button:active {
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(#800080), to(#ffff00));
+        transition: background 0s;
+      }
