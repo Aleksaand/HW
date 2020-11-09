@@ -1,0 +1,45 @@
+body {
+    width: 1920px;
+    background-color: #E5E5E5;
+    margin: 0 auto;
+}
+
+.main {
+    width: 550px;
+    height: 550px;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.item {
+    
+    width: 50px;
+    border: 3px solid black;
+    
+}
+
+.item1  {
+    height: 180px;
+} 
+
+.item2 {
+    height: 180px;
+}
+
+.item3 {
+    height: 150px;
+}
+
+.main ::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 0, 10, 0 , 20;
+    display: inline-block;
+}

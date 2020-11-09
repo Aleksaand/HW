@@ -1,0 +1,360 @@
+@keyframes anime__ball {
+    0%{
+        top: 55px;
+        left: 10px;
+        border-radius: 50%;
+    }
+    5% {
+        top: 115px;
+        left: 10px;
+    }
+    10% {
+        top: 55px;
+        left: 60px;
+    }
+    15% {
+        top: 135px;
+        left: 110px;
+    }
+    20% {
+        top: 55px;
+        left: 160px;
+    }
+    25% {
+        top: 155px;
+        left: 210px;
+    }
+    30% {
+        top: 55px;
+        left: 260px;
+    }
+    35% {
+        top: 175px;
+        left: 310px;
+    }
+    40% {
+        top: 55px;
+        left: 360px;
+    }
+    45% {
+        top: 195px;
+        left: 410px;
+
+    }
+    49% {
+        top: 195px;
+        left: 410px;
+
+    }
+
+    
+    50%{
+        top: 55px;
+        left: 410px;
+        border-radius: 0;
+    }
+
+    55%{
+        top: 115px;
+        left: 410px;
+    }
+
+    60%{
+        top: 55px;
+        left: 360px;
+    }
+    65% {
+        top: 135px;
+        left: 310px;
+    }
+    70% {
+        top: 55px;
+        left: 260px;
+    }
+    75% {
+        top: 155px;
+        left: 210px;
+    }
+    80% {
+        top: 55px;
+        left: 160px;
+    }
+    85% {
+        top: 175px;
+        left: 110px;
+    }
+    90% {
+        top: 55px;
+        left: 60px;
+    }
+    95% {
+        top: 195px;
+        left: 10px;
+    }
+    100%{
+        top: 55px;
+        left: 10px;
+        border-radius: 50%;
+    }
+
+
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+    @keyframes anime__blok5 {
+        0% {
+            height: 70px;
+            top: 230px;
+            background-color:red;
+
+        }
+        49% {
+            height: 70px;
+            top: 230px;
+            background-color:red;
+
+        }
+
+        50% {
+            height: 150px;
+            top: 150px;
+            background-color: yellow;
+        }
+        51% {
+            height: 150px;
+            top: 150px;
+            background-color: yellow;
+
+        }
+        99% {
+            height: 150px;
+            top: 150px;
+            background-color: yellow;
+
+        }
+        100% {
+            height: 70px;
+            top: 230px;
+            background-color:red;
+        }
+    }
+    @keyframes anime__blok4 {
+        0% {
+            height: 90px;
+            top: 210px;
+            background-color: blue;
+
+        }
+        49% {
+            height: 90px;
+            top: 210px;
+            background-color: blue;
+
+        }
+
+        50% {
+            height: 130px;
+            top: 170px;
+            background-color: green;
+        }
+        51% {
+            height: 130px;
+            top: 170px;
+            background-color: green;
+
+        }
+        99% {
+            height: 130px;
+            top: 170px;
+            background-color: green;
+
+        }
+        100% {
+            height: 90px;
+            top: 210px;
+            background-color: blue;
+        }
+    }
+    @keyframes anime__blok2 {
+        0% {
+            height: 130px;
+            top: 170px;
+            background-color: green;
+
+        }
+        49% {
+            height: 130px;
+            top: 170px;
+            background-color: green;
+
+        }
+
+        50% {
+            height: 90px;
+            top: 210px;
+            background-color: blue;
+        }
+        51% {
+            height: 90px;
+            top: 210px;
+            background-color: blue;
+
+        }
+        99% {
+            height: 90px;
+            top: 210px;
+            background-color: blue;
+
+        }
+        100% {
+            height: 130px;
+            top: 170px;
+            background-color: green;
+        }
+    }
+    @keyframes anime__blok1 {
+        0% {
+            height: 150px;
+            top: 150px;
+            background-color: yellow;
+
+        }
+        49% {
+            height: 150px;
+            top: 150px;
+            background-color: yellow;
+
+        }
+
+        50% {
+            height: 70px;
+            top: 230px;
+            background-color:red;
+        }
+        51% {
+            height: 70px;
+            top: 230px;
+            background-color:red;
+
+        }
+        99% {
+            height: 70px;
+            top: 230px;
+            background-color:red;
+
+        }
+        100% {
+            height: 150px;
+            top: 150px;
+            background-color: yellow;
+        }
+    }
+
+
+    body {
+    /* background-image: url(../images/clock.png); */
+    background-repeat: no-repeat;
+
+}
+
+.main {
+    position: relative;
+    margin: 0 auto;
+    width: 800px;
+    height: 300px;
+    border: 3px solid black;
+    background-color: #999;
+}
+
+.ball {
+    position: absolute;
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+    background: black;
+    top: 55px;
+    left: 10px;
+    animation-name: anime__ball;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+
+
+}
+
+
+.blok {
+    position: absolute;
+    
+    width: 50px;
+    
+    border: 3px solid black;
+    margin: 0 auto;
+    
+}
+
+.blok__1 {
+    left: 10px;
+    height: 150px;
+    top: 150px;
+    animation: anime__blok1;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    background-color: yellow;
+
+}
+
+.blok__2 {
+    left: 110px;
+    height: 130px;
+    top: 170px;
+    animation: anime__blok2;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    background-color: green;
+
+}
+
+.blok__3 {
+    left: 210px;
+    height: 110px;
+    top: 190px;
+    background-color: black;
+    
+}
+
+.blok__4 {
+    left: 310px;
+    height: 90px;
+    top: 210px;
+    animation: anime__blok4;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    background-color: blue;
+
+}
+
+.blok__5 {
+    left: 410px;
+    height: 70px;
+    top: 230px;
+    animation: anime__blok5;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    background-color: red;
+
+}

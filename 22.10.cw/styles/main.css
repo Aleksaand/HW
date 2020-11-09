@@ -1,0 +1,36 @@
+
+
+.main  {
+    margin: 70px 50px; 
+    position: relative;
+}
+.item  {
+    border: 2px solid black;
+    position: absolute;
+    background-color: khaki;
+    width: 60px;
+    height: 100px;
+    border-radius: 5px;
+    transition-duration: 1s;
+    visibility: visible;     
+
+}
+
+.item2 {
+    left: 50px;
+}
+
+.item3 {
+    left: 100px;
+}
+
+.item4 {
+    left: 150px;
+}
+
+.item:hover {
+    top: -25px;
+    background: content-box radial-gradient(crimson, skyblue);  
+    
+    
+}

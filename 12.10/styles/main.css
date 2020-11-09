@@ -1,0 +1,74 @@
+div {
+  width: 80%;
+  height: 100px;
+  background: red;
+background: linear-gradient(135deg, transparent 50px, red 0) top left,
+            linear-gradient(-135deg, transparent 50px, red 0) top right,
+            linear-gradient(-45deg, transparent 50px, red 0) bottom right,
+            linear-gradient(45deg, transparent 50px, red 0) bottom left;
+background-size: 50% 50%;
+background-repeat: no-repeat;
+
+}
+
+div ~ div {
+  width: 80%;
+  height: 100px;
+  background: orange;
+background: linear-gradient(135deg, transparent 50px, orange 0) top left,
+            linear-gradient(-135deg, transparent 50px, orange 0) top right,
+            linear-gradient(-45deg, transparent 50px, orange 0) bottom right,
+            linear-gradient(45deg, transparent 50px, orange 0) bottom left;
+background-size: 50% 50%;
+background-repeat: no-repeat;
+
+}
+
+div ~ div ~ div {
+  width: 80%;
+  height: 100px;
+  background: yellow;
+background: linear-gradient(135deg, transparent 50px, yellow 0) top left,
+            linear-gradient(-135deg, transparent 50px, yellow 0) top right,
+            linear-gradient(-45deg, transparent 50px, yellow 0) bottom right,
+            linear-gradient(45deg, transparent 50px, yellow 0) bottom left;
+background-size: 50% 50%;
+background-repeat: no-repeat;
+}
+
+div ~ div ~ div ~ div {
+  width: 80%;
+  height: 100px;
+  background: green;
+background: linear-gradient(135deg, transparent 50px, green 0) top left,
+            linear-gradient(-135deg, transparent 50px, green 0) top right,
+            linear-gradient(-45deg, transparent 50px, green 0) bottom right,
+            linear-gradient(45deg, transparent 50px, green 0) bottom left;
+background-size: 50% 50%;
+background-repeat: no-repeat;
+}
+
+div ~ div ~ div ~ div ~ div{
+  width: 80%;
+  height: 100px;
+  background: blue;
+background: linear-gradient(135deg, transparent 50px, blue 0) top left,
+            linear-gradient(-135deg, transparent 50px, blue 0) top right,
+            linear-gradient(-45deg, transparent 50px, blue 0) bottom right,
+            linear-gradient(45deg, transparent 50px, blue 0) bottom left;
+background-size: 50% 50%;
+background-repeat: no-repeat;
+}
+
+div ~ div ~ div ~ div ~ div ~ div{
+  background-color: blueviolet;
+  width: 80%;
+  height: 100px;
+  background: blueviolet;
+background: linear-gradient(135deg, transparent 50px, blueviolet 0) top left,
+            linear-gradient(-135deg, transparent 50px, blueviolet 0) top right,
+            linear-gradient(-45deg, transparent 50px, blueviolet 0) bottom right,
+            linear-gradient(45deg, transparent 50px, blueviolet 0) bottom left;
+background-size: 50% 50%;
+background-repeat: no-repeat;
+}

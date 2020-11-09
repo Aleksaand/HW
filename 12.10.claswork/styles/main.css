@@ -1,0 +1,15 @@
+div {
+    top: 50px;
+    width: 200px;
+	height: 100px;
+    background: red;
+    position: fixed;
+}
+
+div ~ div {
+    top: 50px;
+    width: 200px;
+	height: 100px;
+    background: green;
+    position: fixed;
+} 

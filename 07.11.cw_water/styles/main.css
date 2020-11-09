@@ -1,0 +1,171 @@
+@keyframes anime_watter{
+    0% {
+        top: 50px;
+        opacity: 1;
+
+
+    }
+    50% {
+        top: 500px;
+        opacity: 1;
+
+    }
+    51% {
+        top: 500px;
+        opacity: 0;
+
+
+    }
+
+    100% {
+        top: 500px;
+        opacity: 0;
+    }
+}
+
+@keyframes anime_puddle{
+    0% {
+        width: 40px;
+        height: 20px;
+        opacity: 0;
+
+
+    }
+    
+    50% {
+        width: 40px;
+        height: 20px;
+        opacity: 0;
+
+    }
+    51% {
+        width: 40px;
+        height: 20px;
+        opacity: 1;
+
+
+    }
+
+    100% {
+        width: 300px;
+        height: 200px;
+        opacity: 0;
+
+    }
+    
+    
+    
+    
+    
+   
+}
+
+/* @keyframes anime_puddle__false{
+    0% {
+        width: 40px;
+        height: 20px;
+
+
+    }
+    50% {
+        width: 40px;
+        height: 20px;
+
+    }
+    51% {
+        width: 40px;
+        height: 20px;
+
+
+    }
+
+    100% {
+        width: 300px;
+        height: 200px;
+    }
+    
+} */
+
+
+
+
+.main {
+    margin: 0 auto;
+    width: 800px;
+    height: 800px;
+    position: relative;
+    background-color: #999;
+
+}
+
+.watter {
+    
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    width: 50px;
+    height: 50px;
+    border-radius: 0 50% 50% 50%;
+    border: 3px solid #00ffff;
+    transform: rotate(45deg);
+    margin-top: 20px;
+    opacity: 1;
+    background-color: #00b4d2;
+    animation-name: anime_watter;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+  }
+
+.flex {
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 250px;
+    width: 350px;
+    /* border: 3px solid red; */
+    top: 450px;
+    left: 250px;
+}
+
+  .puddle {
+        
+        position: relative;
+        background-color: #0494a7;
+        display: flex;
+        width: 40px;
+        height: 20px;
+        top: 0px;
+        left: 0px;
+        /* border: 5px solid red; */
+        /* z-index: 2; */
+        border-radius: 50% 50% 50% 50%;
+        animation-name: anime_puddle;
+        animation-duration: 5s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+
+  }
+
+
+  /* .puddle__false  {
+        
+    position: relative;
+    background-color: #999;
+    display: flex;
+    width: 40px;
+    height: 20px;
+    top: 0px;
+    left: 0px;
+    /* border: 5px solid green; */
+    /* z-index: 2; */
+    border-radius: 50% 50% 50% 50%;
+    animation-name: anime_puddle__false;
+    animation-duration: 5s;
+    animation-delay: 2.1s;
+    animation-iteration-count: infinite;
+
+} */
