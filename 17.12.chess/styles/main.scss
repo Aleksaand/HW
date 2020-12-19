@@ -1,0 +1,29 @@
+$side: 100px;
+
+
+
+.main {
+    background-color: #999;
+    margin: 5px;
+    width: 950px;
+    height: 1200px;
+    display:  flex;
+    flex-wrap: wrap;
+    justify-content: space-around center;
+    align-items: center;
+    div {
+        margin: 5px 5px 5px 5px ;
+        height: $side;
+        width: $side;
+        border: 3px solid black;
+    }
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    z-index: 2;
+    color: aqua;
+}
+

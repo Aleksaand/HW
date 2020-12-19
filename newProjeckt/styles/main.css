@@ -1,0 +1,39 @@
+.main {
+  background-color: #999;
+  margin: 20px;
+  width: 800px;
+  height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-around center;
+      -ms-flex-pack: space-around center;
+          justify-content: space-around center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main div {
+  margin: 25px 25px 0px 25px;
+  height: 100px;
+  width: 100px;
+  border: 3px solid black;
+}
+
+.items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 2;
+  color: aqua;
+}
+/*# sourceMappingURL=main.css.map */

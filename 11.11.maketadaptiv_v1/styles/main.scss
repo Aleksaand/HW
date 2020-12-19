@@ -1,0 +1,31 @@
+
+
+
+.main {
+    background-color: #999;
+    margin: 20px;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-direction:column;
+    
+    justify-content:flex-end;
+
+
+  
+}
+
+.item1011 {
+    border: 3px solid black;
+    height: 50%;
+    flex-grow:1;
+
+}
+
+
+.item12 {
+    border: 3px solid black;
+    height: 50px;
+    flex-grow:0;
+
+}

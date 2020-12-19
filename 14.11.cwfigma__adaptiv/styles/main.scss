@@ -1,0 +1,155 @@
+// body {
+//     margin: 0 auto;
+//     width: 1920px;
+// }
+
+.main {
+    background-color: #FCFCFC;
+    margin: 0 auto;
+
+    width: 1920px;
+    height: 900px;
+    // display: flex;
+    // flex-direction:column;
+    
+    // justify-content:flex-end;  
+    .box__start {
+        background-color: #F2F2F2;
+        height: 36px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .box__start__container {
+        width: 1110px;
+        height: 36px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        border: 1px solid black;
+
+        .box__start__container__feedback {
+        margin: 19px;
+        font-family: Google Sans;
+        font-size: 14px;
+        line-height: 16px;
+        color: #4F4F4F;
+        }
+        .box__start__container__login {
+                margin: 19px;
+                margin: 19px;
+                font-family: Google Sans;
+                font-size: 14px;
+                line-height: 16px;
+                color: #4F4F4F;
+                }
+        }       
+    }
+
+    .header {
+        height: 83px;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            .header__container {
+                width: 1110px;
+                height: 83px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border: 1px solid black;
+                    .header__container__gamburger {
+                       
+                        width: 25px;
+                        height: 20px;
+                        background-image: url(../images/gamburger.png);
+
+                    }
+                    .header__container__search {
+                        border: 1px solid red;
+                        display: flex;
+                        width: 888px;
+                        justify-content: space-between;
+                        align-items: center;
+                            .header__container__search__city{
+                                display: flex;
+                                width: 651px;
+                                height: 44px;
+                                font-family: Google Sans;
+                                font-size: 14px;
+                                line-height: 16px;
+                                justify-content: space-between;
+                                align-items: center;
+                                background: #FCFCFC;
+                                border: 1px solid #E8E8EE;
+                                box-sizing: border-box;
+                                border-radius: 3px;
+                                .header__container__search__city1 {
+                                    margin: 0px 0 0 19px;
+                                }
+                                .header__container__search__city1::before {
+                                    content:url(../images/seach1.png);
+                                    height: 10px;
+                                    width: 10px;
+                                    margin: 0 19px 0 13px;
+                                }
+                                .header__container__search__city2 {
+                                    // margin: 0px 54px 0 0;
+                                }
+                                .header__container__search__city2::before {
+                                    content:url(../images/line2.png);
+                                //     // height: 10px;
+                                //     // width: 10px;
+                                //     // margin: 0 19px 0 13px;
+                                // }
+                                .header__container__search__city2::after {
+                                    content:url(../images/Polygon.png);
+                                    // height: 10px;
+                                    // width: 10px;
+                                     margin: 0 19px 0 7px;
+                                }
+
+                            }
+                            .header__container__search__advt {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 218px;
+                                height: 44px;
+                                background: linear-gradient(245.23deg, #32228A -43.18%, #745ACD 100%), #C4C4C4;
+                                border-radius: 3px;
+                                font-family: Google Sans;
+                                font-size: 14px;
+                                line-height: 16px;
+                                color: #FFFFFF;
+                                margin: 0 0 0 20px;
+                            }
+
+                    }
+            }
+        
+
+    }
+    .main__content {
+        height: 221px;
+        border: 1px solid red;
+        width: 1110px;
+        .main__content__images {
+            width: 1110px;
+            height: 221px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid black;
+            background-color: #999;
+            background-image: url(../images/pfone.png);
+
+        }
+    }
+}   
+    
+    
+    
+
+}
