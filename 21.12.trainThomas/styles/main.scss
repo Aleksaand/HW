@@ -1,0 +1,134 @@
+@keyframes forwardLeft {
+    // 0% {
+    //     left: 550px;
+    // }
+    100% {
+        left: 50px;
+
+    }
+}
+@keyframes forwardRight {
+    // 0% {
+    //     left: 550px;
+    // }
+    100% {
+        left: 650px;
+
+    }
+}
+
+$side: 100px;
+
+.main {
+    background-color: #999;
+    margin: 20px;
+    width: 800px;
+    height: 300px;
+    display:  flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:flex-end;
+    .train {
+        position:absolute;
+        left: 300px;
+        top: 50px;
+        
+        
+        // animation: forwardLeft 2s linear forwards;
+        width: 80px;
+        height: 50px;
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        border-radius: 10px;
+    
+    
+    
+        .light {
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+        }
+        .color1 {
+            background-color:red;
+        }
+        .color2 {
+            background-color:yellow;
+        }
+
+    }
+   
+    .right {
+        animation: forwardRight 2s linear forwards paused;
+        }
+    .left {
+        animation: forwardLeft 2s linear forwards paused;
+    }
+
+}
+
+
+
+
+.control {
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    height: 100px;
+    width: 400px;
+    margin: 0 0 0 150px;
+    border: 2px solid black;
+    background-color: #999;
+    .btn__left {
+        position:absolute;
+        left: 10px;
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        border: solid gray 3px;
+        background-color: blueviolet;
+        margin: 10px 10px 10px 150px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        user-select: none;
+    }
+    .btn_light {
+        position:absolute;
+        left: 120px;
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        border: solid gray 3px;
+        background-color: yellow;
+        margin: 10px 10px 10px 150px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        user-select: none;
+        
+    }
+    .btn__right{
+        position:absolute;
+        left: 240px;
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        border: solid gray 3px;
+        background-color: blueviolet;
+        margin: 10px 10px 10px 150px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        user-select: none;
+
+    }
+
+}
+
+// animation: forwardLeft 2s linear forwards;
+        
+        // animation-duration: 8s;
+        // animation-delay: 1s;
+        // animation-iteration-count:forwards;

@@ -1,0 +1,49 @@
+@-webkit-keyframes move {
+  0% {
+  }
+  100% {
+    left: 400px;
+  }
+}
+
+@keyframes move {
+  0% {
+  }
+  100% {
+    left: 400px;
+  }
+}
+
+body {
+  padding: 10px;
+}
+
+input {
+  margin: 10px;
+  height: 50px;
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.realTime {
+  margin: 10px;
+  height: 50px;
+  width: 100px;
+  background-color: #eeeeee;
+}
+
+.resalt {
+  margin: 10px;
+  height: 50px;
+  width: 300px;
+  background-color: yellow;
+}
+/*# sourceMappingURL=main.css.map */

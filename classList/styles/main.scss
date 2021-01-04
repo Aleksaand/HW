@@ -1,0 +1,61 @@
+$side: 100px;
+@keyframes move {
+    0% {
+       
+    }
+    100% {
+        left: 400px;
+    }
+}
+
+.main {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:relative;
+    margin: 10px;
+    padding: 10px;
+
+    left: 40px;
+    width: auto;
+    height: 120px;
+    font-size: 25px;
+
+    background-color: #999999;
+}
+button {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 50px;
+}
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: rgb(85, 185, 247);
+}
+
+// .moving {
+//     animation: move 5s linear forwards;
+// }
+.pink {
+    background-color: pink;
+}
+.orange {
+    background-color: orange;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: rgb(5, 203, 5);
+}
+.bluesea {
+    background-color: rgb(29, 36, 242);
+}
+.purple {
+    background-color: rgb(216, 11, 216);
+}

@@ -1,0 +1,75 @@
+@-webkit-keyframes move {
+  0% {
+  }
+  100% {
+    left: 400px;
+  }
+}
+
+@keyframes move {
+  0% {
+  }
+  100% {
+    left: 400px;
+  }
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin: 10px;
+  padding: 10px;
+  left: 40px;
+  width: auto;
+  height: 120px;
+  font-size: 25px;
+  background-color: #999999;
+}
+
+button {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 50px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: #55b9f7;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: #05cb05;
+}
+
+.bluesea {
+  background-color: #1d24f2;
+}
+
+.purple {
+  background-color: #d80bd8;
+}
+/*# sourceMappingURL=main.css.map */

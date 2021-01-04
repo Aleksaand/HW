@@ -1,0 +1,174 @@
+@-webkit-keyframes forwardLeft {
+  100% {
+    left: 50px;
+  }
+}
+
+@keyframes forwardLeft {
+  100% {
+    left: 50px;
+  }
+}
+
+@-webkit-keyframes forwardRight {
+  100% {
+    left: 650px;
+  }
+}
+
+@keyframes forwardRight {
+  100% {
+    left: 650px;
+  }
+}
+
+.main {
+  background-color: #999;
+  margin: 20px;
+  width: 800px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.main .train {
+  position: absolute;
+  left: 300px;
+  top: 50px;
+  width: 80px;
+  height: 50px;
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+}
+
+.main .train .light {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.main .train .color1 {
+  background-color: red;
+}
+
+.main .train .color2 {
+  background-color: yellow;
+}
+
+.main .right {
+  -webkit-animation: forwardRight 2s linear forwards paused;
+          animation: forwardRight 2s linear forwards paused;
+}
+
+.main .left {
+  -webkit-animation: forwardLeft 2s linear forwards paused;
+          animation: forwardLeft 2s linear forwards paused;
+}
+
+.control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  width: 400px;
+  margin: 0 0 0 150px;
+  border: 2px solid black;
+  background-color: #999;
+}
+
+.control .btn__left {
+  position: absolute;
+  left: 10px;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  border: solid gray 3px;
+  background-color: blueviolet;
+  margin: 10px 10px 10px 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.control .btn_light {
+  position: absolute;
+  left: 120px;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  border: solid gray 3px;
+  background-color: yellow;
+  margin: 10px 10px 10px 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.control .btn__right {
+  position: absolute;
+  left: 240px;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  border: solid gray 3px;
+  background-color: blueviolet;
+  margin: 10px 10px 10px 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+/*# sourceMappingURL=main.css.map */

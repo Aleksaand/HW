@@ -1,0 +1,95 @@
+$side: 100px;
+@keyframes move {
+    0% {
+       
+    }
+    100% {
+        left: 400px;
+    }
+}
+
+.main {
+    // position:absolute;
+    // left: 40px;
+    width: 350px;
+    height: 350px;
+    background-color: #999999;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+// .moving {
+//     animation: move 5s linear forwards;
+// }
+.box {
+    height: 50px;
+    width: 50px;
+    border:3px solid black;
+    
+
+}
+.green {
+    background-color: rgb(12, 230, 12);
+}
+.white {
+    background-color: #fff;
+}
+.orange {
+    background-color: rgb(238, 88, 8);
+}
+.status {
+    border:3px solid black;
+    margin: 10px;
+    height: 30px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.735);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxControl {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border:3px solid black;
+    height: 120px;
+    width: 200px;
+}
+.up {
+    height: 50px;
+    width: 50px;
+    border:3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.down {
+    height: 50px;
+    width: 50px;
+    border:3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.left {
+    height: 50px;
+    width: 50px;
+    border:3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.rigth{
+    height: 50px;
+    width: 50px;
+    border:3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}

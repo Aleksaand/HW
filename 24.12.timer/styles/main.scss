@@ -1,0 +1,90 @@
+// $side: 100px;
+@keyframes rotat {
+    0% {
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.container {
+    // height: side;
+    // background-color: #999999;
+    height: 100px;
+    padding: 10px;
+
+    margin: 10px;
+    display: block;
+    flex-direction:row;
+    // justify-content:flex-start;
+    // align-items: center;
+    // flex-wrap: wrap;
+    font-size: 20px;
+    // border: 3px solid black;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    // border: 3px solid black;
+}
+
+.clock {
+        border: 3px solid black;
+        font-size: 30px;
+        margin: 10px;
+        height: 50px;
+        width: 400px;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+    }
+.hour .minute .second {
+    height: 20px;
+    width: 50px;
+}
+.arrow {
+        // background-color: #999999;
+        background-image: url(/images/arrow.png);
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        transform: rotate(0deg);
+        
+    }
+.anime {
+    animation: rotat 3s linear infinite;
+}    
+.main2 {
+    // border: 3px solid black;
+    display: flex;
+    margin: 10px;
+    justify-content: flex-start;
+    align-items:center;
+}
+.input {
+    margin: 0 10px 0 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.button {
+    border: 3px solid black;
+    width: 150px;
+    border-radius: 5px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.realTime {
+    // border: 3px solid black;
+    width: 150px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(235, 247, 6);
+}

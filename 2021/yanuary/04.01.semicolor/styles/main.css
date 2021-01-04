@@ -1,0 +1,101 @@
+@-webkit-keyframes move {
+  0% {
+  }
+  100% {
+    left: 400px;
+  }
+}
+
+@keyframes move {
+  0% {
+  }
+  100% {
+    left: 400px;
+  }
+}
+
+.main {
+  position: absolute;
+  left: 40px;
+  width: 500px;
+  height: 500px;
+  background-color: #999999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.containerControl, .containerSemicolr {
+  background-color: #555555;
+  border: 3px solid black;
+  margin: 20px;
+}
+
+.containerSemicolr {
+  width: 100px;
+  height: 200px;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.containerControl {
+  width: 200px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.redBut, .yellowBut, .greenBut {
+  height: 50px;
+  width: 50px;
+}
+
+.red, .yellow, .green {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 10px;
+  background-color: #999999;
+}
+
+.redBut {
+  background-color: red;
+}
+
+.yellowBut {
+  background-color: yellow;
+}
+
+.greenBut {
+  background-color: green;
+}
+/*# sourceMappingURL=main.css.map */
